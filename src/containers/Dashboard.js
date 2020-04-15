@@ -3,6 +3,7 @@ import Dashboard from '../components/Dashboard';
 
 const mapStateToProps = (state) => {
   return {
+    user: state.user,
     cars: state.cars
   }
 }
